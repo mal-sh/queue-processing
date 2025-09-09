@@ -186,7 +186,6 @@ class RedisConsumer:
                 host=self.redis_host,
                 port=self.redis_port,
                 db=self.redis_db,
-                password=self.redis_password,
                 decode_responses=True
             )
             # Test the connection
