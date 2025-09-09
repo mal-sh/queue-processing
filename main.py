@@ -7,6 +7,8 @@ import logging
 from datetime import datetime
 from urllib.parse import urlparse
 from typing import Dict, Any, Optional
+import time
+
 
 # Configure logging
 logging.basicConfig(
